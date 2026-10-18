@@ -15,7 +15,9 @@ OUTPUT.mkdir(exist_ok=True)
 # Yesterday in Iowa local time
 day = (datetime.now(ZoneInfo("America/Chicago")).date()
        - timedelta(days=1)).isoformat()
-
+today = datetime.now(
+    ZoneInfo("America/Chicago")
+).date().isoformat()
 def download(url):
     request = urllib.request.Request(
         url, headers={"User-Agent": "IowaWeatherData/1.0"}
