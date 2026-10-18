@@ -3,8 +3,8 @@ name: Update Iowa Weather Data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 12 * * *'
+    schedule:
+    - cron: '15 7 * * *'
       timezone: 'America/Chicago'
 
 permissions:
