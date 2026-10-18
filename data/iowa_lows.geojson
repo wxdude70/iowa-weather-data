@@ -1,0 +1,1067 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9204,
+          41.6994
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "ADU",
+        "station_name": "ADU",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0465,
+          41.4059
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "AIO",
+        "station_name": "AIO",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4013,
+          42.5544
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "ALO",
+        "station_name": "ALO",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6185,
+          41.9904
+        ]
+      },
+      "properties": {
+        "name": "35",
+        "station": "AMW",
+        "station_name": "AMW",
+        "value": 35,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6746,
+          41.275
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "AWG",
+        "station_name": "AWG",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2724,
+          43.0796
+        ]
+      },
+      "properties": {
+        "name": "43",
+        "station": "AXA",
+        "station_name": "AXA",
+        "value": 43,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8486,
+          42.0486
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "BNW",
+        "station_name": "BNW",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1255,
+          40.7729
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "BRL",
+        "station_name": "BRL",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7593,
+          42.743
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "CAV",
+        "station_name": "CAV",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7604,
+          41.2611
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "CBF",
+        "station_name": "CBF",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6132,
+          43.073
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "CCY",
+        "station_name": "CCY",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7246,
+          41.8829
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "CID",
+        "station_name": "CID",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7889,
+          42.0444
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "CIN",
+        "station_name": "CIN",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5538,
+          42.7304
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "CKP",
+        "station_name": "CKP",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3608,
+          41.0184
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "CNC",
+        "station_name": "CNC",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3608,
+          41.0188
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "CSQ",
+        "station_name": "CSQ",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3328,
+          41.8295
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "CWI",
+        "station_name": "CWI",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.7091,
+          42.3984
+        ]
+      },
+      "properties": {
+        "name": "38",
+        "station": "DBQ",
+        "station_name": "DBQ",
+        "value": 38,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7433,
+          43.2755
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "DEH",
+        "station_name": "DEH",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.38,
+          41.9842
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "DNS",
+        "station_name": "DNS",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6531,
+          41.534
+        ]
+      },
+      "properties": {
+        "name": "40",
+        "station": "DSM",
+        "station_name": "DSM",
+        "value": 40,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5948,
+          41.6133
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "DVN",
+        "station_name": "DVN",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8725,
+          42.4371
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "EBS",
+        "station_name": "EBS",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4274,
+          40.4615
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "EOK",
+        "station_name": "EOK",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7476,
+          43.4008
+        ]
+      },
+      "properties": {
+        "name": "31",
+        "station": "EST",
+        "station_name": "EST",
+        "value": 31,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9834,
+          41.0521
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "FFL",
+        "station_name": "FFL",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2032,
+          42.5497
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "FOD",
+        "station_name": "FOD",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3267,
+          40.6615
+        ]
+      },
+      "properties": {
+        "name": "43",
+        "station": "FSW",
+        "station_name": "FSW",
+        "value": 43,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6237,
+          43.2323
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "FXY",
+        "station_name": "FXY",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7332,
+          41.7097
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "GGI",
+        "station_name": "GGI",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3358,
+          41.5841
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "HNR",
+        "station_name": "HNR",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2244,
+          42.7175
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "HPT",
+        "station_name": "HPT",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0223,
+          40.7242
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "ICL",
+        "station_name": "ICL",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2651,
+          42.4691
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "IFA",
+        "station_name": "IFA",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.9504,
+          42.4544
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "IIB",
+        "station_name": "IIB",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5695,
+          41.6878
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "IKV",
+        "station_name": "IKV",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5445,
+          41.6394
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "IOW",
+        "station_name": "IOW",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9005,
+          40.6306
+        ]
+      },
+      "properties": {
+        "name": "38",
+        "station": "LWD",
+        "station_name": "LWD",
+        "value": 38,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3261,
+          43.1544
+        ]
+      },
+      "properties": {
+        "name": "33",
+        "station": "MCW",
+        "station_name": "MCW",
+        "value": 33,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9163,
+          42.1106
+        ]
+      },
+      "properties": {
+        "name": "33",
+        "station": "MIW",
+        "station_name": "MIW",
+        "value": 33,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5122,
+          40.9453
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "MPZ",
+        "station_name": "MPZ",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1406,
+          41.367
+        ]
+      },
+      "properties": {
+        "name": "41",
+        "station": "MUT",
+        "station_name": "MUT",
+        "value": 41,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1605,
+          42.2204
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "MXO",
+        "station_name": "MXO",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.976,
+          42.6831
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "OLZ",
+        "station_name": "OLZ",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4919,
+          41.2273
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "OOA",
+        "station_name": "OOA",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4446,
+          41.1008
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "OTM",
+        "station_name": "OTM",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1114,
+          41.2984
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "OXV",
+        "station_name": "OXV",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9431,
+          41.3989
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "PEA",
+        "station_name": "PEA",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1606,
+          41.8241
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "PRO",
+        "station_name": "PRO",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2622,
+          41.0107
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "RDK",
+        "station_name": "RDK",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4112,
+          40.7533
+        ]
+      },
+      "properties": {
+        "name": "34",
+        "station": "SDA",
+        "station_name": "SDA",
+        "value": 34,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.8353,
+          43.2082
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "SHL",
+        "station_name": "SHL",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2399,
+          42.5972
+        ]
+      },
+      "properties": {
+        "name": "36",
+        "station": "SLB",
+        "station_name": "SLB",
+        "value": 36,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2101,
+          43.1682
+        ]
+      },
+      "properties": {
+        "name": "28",
+        "station": "SPW",
+        "station_name": "SPW",
+        "value": 28,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3795,
+          42.3917
+        ]
+      },
+      "properties": {
+        "name": "32",
+        "station": "SUX",
+        "station_name": "SUX",
+        "value": 32,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1645,
+          42.9895
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "SXK",
+        "station_name": "SXK",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.019,
+          41.6701
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "TNU",
+        "station_name": "TNU",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8983,
+          40.6832
+        ]
+      },
+      "properties": {
+        "name": "37",
+        "station": "TVK",
+        "station_name": "TVK",
+        "value": 37,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0248,
+          42.2176
+        ]
+      },
+      "properties": {
+        "name": "39",
+        "station": "VTI",
+        "station_name": "VTI",
+        "value": 39,
+        "units": "F",
+        "date": "2026-10-16"
+      }
+    }
+  ]
+}
