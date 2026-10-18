@@ -1,0 +1,37 @@
+
+name: Update Iowa Weather Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+      timezone: 'America/Chicago'
+
+permissions:
+  contents: write
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate weather GeoJSON
+        run: python scripts/update_weather.py
+
+      - name: Commit updated weather data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.geojson
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Iowa weather observations"
+            git push
+          fi
