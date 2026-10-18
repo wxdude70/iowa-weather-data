@@ -117,3 +117,52 @@ for filename, (column, units, multiplier) in variables.items():
     print(filename, len(features), "stations", day)
 
 print("All three GeoJSON files created.")
+
+# Generate GRLevelX placefiles from GeoJSON data
+placefiles = {
+    "iowa_highs.geojson": (
+        "iowa_highs.txt",
+        "Yesterday's Iowa High Temperatures",
+        "255 190 70"
+    ),
+    "iowa_lows.geojson": (
+        "iowa_lows.txt",
+        "Yesterday's Iowa Low Temperatures",
+        "80 190 255"
+    ),
+    "iowa_gusts.geojson": (
+        "iowa_gusts.txt",
+        "Yesterday's Iowa Peak Wind Gusts",
+        "255 255 255"
+    )
+}
+
+for source, (destination, title, color) in placefiles.items():
+    geojson = json.loads((OUTPUT / source).read_text())
+
+    lines = [
+        f"Title: {title} - {day}",
+        "Refresh: 60",
+        "Threshold: 999",
+        f"Color: {color}",
+        'Font: 1, 24, 1, "Arial"'
+    ]
+
+    for feature in geojson["features"]:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"]
+        value = props["name"]
+        station = props["station"]
+        hover = f"{station} - {day}"
+
+        lines.append(
+            f'Text: {lat:.5f}, {lon:.5f}, 1, '
+            f'"{value}", "{hover}"'
+        )
+
+    (OUTPUT / destination).write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8"
+    )
+
+    print("Created", destination)
