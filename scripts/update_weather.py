@@ -64,6 +64,24 @@ rows = list(csv.DictReader(io.StringIO(raw)))
 if not rows or "station" not in rows[0]:
     raise RuntimeError("Daily observations unavailable")
 
+# Retrieve today's low temperatures separately
+today_params = urlencode({
+    "network": "IA_ASOS",
+    "stations": "_ALL",
+    "sts": today,
+    "ets": today,
+    "var": "min_temp_f",
+    "format": "csv",
+    "na": "blank"
+})
+
+today_url = BASE + "/cgi-bin/request/daily.py?" + today_params
+today_raw = download(today_url)
+today_rows = list(csv.DictReader(io.StringIO(today_raw)))
+
+if not today_rows or "station" not in today_rows[0]:
+    raise RuntimeError("Today's low temperatures unavailable")
+
 variables = {
     "iowa_highs.geojson": ("max_temp_f", "F", 1.0),
     "iowa_lows.geojson": ("min_temp_f", "F", 1.0),
@@ -72,8 +90,9 @@ variables = {
 
 for filename, (column, units, multiplier) in variables.items():
     features = []
-
-    for row in rows:
+source_rows = today_rows if filename == "iowa_lows.geojson" else rows
+    observation_day = today if filename == "iowa_lows.geojson" else day
+        for row in source_rows:
         sid = row["station"].strip().upper()
         value = row.get(column, "").strip()
 
@@ -99,7 +118,7 @@ for filename, (column, units, multiplier) in variables.items():
                 "station_name": location["name"],
                 "value": number,
                 "units": units,
-                "date": day
+                "date": observation_day
             }
         })
 
@@ -140,10 +159,12 @@ placefiles = {
 }
 
 for source, (destination, title, color) in placefiles.items():
+       file_day = today if source == "iowa_lows.geojson" else day
+    title = title.replace("Yesterday's", "Today's") if source == "iowa_lows.geojson" else title
     geojson = json.loads((OUTPUT / source).read_text())
 
     lines = [
-        f"Title: {title} - {day}",
+        f"Title: {title} - {file_day}", f"Title: {title} - {day}",
         "Refresh: 60",
         "Threshold: 999",
         f"Color: {color}",
@@ -155,7 +176,7 @@ for source, (destination, title, color) in placefiles.items():
         lon, lat = feature["geometry"]["coordinates"]
         value = props["name"]
         station = props["station"]
-        hover = f"{station} - {day}"
+        hover = f"{station} - {file_day}"
 
         lines.append(
             f'Text: {lat:.5f}, {lon:.5f}, 1, '
