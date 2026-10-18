@@ -90,9 +90,12 @@ variables = {
 
 for filename, (column, units, multiplier) in variables.items():
     features = []
-source_rows = today_rows if filename == "iowa_lows.geojson" else rows
+for filename, (column, units, multiplier) in variables.items():
+    features = []
+    source_rows = today_rows if filename == "iowa_lows.geojson" else rows
     observation_day = today if filename == "iowa_lows.geojson" else day
-        for row in source_rows:
+
+    for row in source_rows:
         sid = row["station"].strip().upper()
         value = row.get(column, "").strip()
 
@@ -159,12 +162,12 @@ placefiles = {
 }
 
 for source, (destination, title, color) in placefiles.items():
-       file_day = today if source == "iowa_lows.geojson" else day
+    file_day = today if source == "iowa_lows.geojson" else day
     title = title.replace("Yesterday's", "Today's") if source == "iowa_lows.geojson" else title
     geojson = json.loads((OUTPUT / source).read_text())
 
     lines = [
-        f"Title: {title} - {file_day}", f"Title: {title} - {day}",
+    f"Title: {title} - {file_day}",
         "Refresh: 60",
         "Threshold: 999",
         f"Color: {color}",
