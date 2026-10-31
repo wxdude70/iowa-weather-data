@@ -86,29 +86,42 @@ def fetch_rows(now):
     request = Request(url, headers={'User-Agent': 'IowaRWISPavementPlacefile/1.0'})
     with urlopen(request, timeout=60) as response:
         body = response.read().decode('utf-8-sig')
-    lines = [line for line in body.splitlines() if line.strip() and not line.startswith('#')]
-    if not lines:
-        raise RuntimeError('IEM returned no CSV records.')
-    # IEM may return comma-, tab-, or semicolon-delimited text.
-    # Select the actual delimiter based on recognizable station/temperature columns.
-    body_lines = '\n'.join(lines)
+    raw_lines = [line for line in body.splitlines() if line.strip()]
+    if not raw_lines:
+        raise RuntimeError('IEM returned no records.')
+
+    # IEM CSV exports can prefix the header with '#'. Do not discard
+    # that header along with ordinary comment lines.
     reader = None
     fields = []
-    for delim in (',', '\t', ';', '|'):
-        candidate = csv.DictReader(io.StringIO(body_lines), delimiter=delim, skipinitialspace=True)
-        headers = [(f or '').strip().lower().lstrip('\ufeff') for f in (candidate.fieldnames or [])]
-        if (set(SENSORS + AVERAGE).intersection(headers)
-                and set(LAT).intersection(headers)
-                and set(LON).intersection(headers)):
+    for idx, raw_line in enumerate(raw_lines):
+        candidate_header = raw_line.lstrip('\ufeff').strip()
+        if candidate_header.startswith('#'):
+            candidate_header = candidate_header[1:].strip()
+        for delim in (',', '\t', ';', '|'):
+            parts = next(csv.reader([candidate_header], delimiter=delim, skipinitialspace=True))
+            headers = [(part or '').strip().lower() for part in parts]
+            if not (set(SENSORS + AVERAGE) & set(headers)):
+                continue
+            if not (set(LAT) & set(headers)) or not (set(LON) & set(headers)):
+                continue
+            data_lines = [candidate_header]
+            for line in raw_lines[idx + 1:]:
+                if not line.lstrip().startswith('#'):
+                    data_lines.append(line)
+            candidate = csv.DictReader(io.StringIO('\n'.join(data_lines)), delimiter=delim,
+                                       skipinitialspace=True)
             reader, fields = candidate, headers
             print('IEM delimiter:', repr(delim))
             break
+        if reader is not None:
+            break
     if reader is None:
-        # Helpful failure details if the API format changes later.
-        print('IEM raw header:', repr(lines[0][:500]))
-        raise RuntimeError('Could not parse IEM pavement/coordinate columns.')
+        print('IEM first lines:', repr(raw_lines[:5]))
+        raise RuntimeError('Could not find a CSV header with coordinates and pavement fields.')
     print('IEM fields:', ', '.join(fields))
-    rows = [{(k or '').strip().lower().lstrip('\ufeff'): v for k, v in row.items()} for row in reader]
+    rows = [{(k or '').strip().lower().lstrip('\ufeff'): v for k, v in row.items()
+             if k is not None} for row in reader]
     return rows
 
 
