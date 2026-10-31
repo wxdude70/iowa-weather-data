@@ -22,7 +22,7 @@ MAX_AGE = timedelta(minutes=90)
 LAT = ('lat', 'latitude', 'geo_lat')
 LON = ('lon', 'longitude', 'long', 'geo_lon')
 STATION = ('station', 'station_id', 'sid', 'id')
-TIMESTAMP = ('valid', 'ob_valid', 'timestamp', 'datetime', 'ob_time', 'time', 'date')
+TIMESTAMP = ('obtime', 'valid', 'ob_valid', 'timestamp', 'datetime', 'ob_time', 'time', 'date')
 # IEM RWIS pavement sensor temperatures commonly appear as tsf0-tsf3.
 # Avoid treating 0 in pave_avg as a valid mean when individual sensors are present.
 SENSORS = ('tsf0', 'tsf1', 'tsf2', 'tsf3', 'pavement_temp', 'pavement_temperature')
@@ -89,17 +89,26 @@ def fetch_rows(now):
     lines = [line for line in body.splitlines() if line.strip() and not line.startswith('#')]
     if not lines:
         raise RuntimeError('IEM returned no CSV records.')
-    reader = csv.DictReader(io.StringIO('\n'.join(lines)))
-    fields = [f.strip().lower() for f in (reader.fieldnames or [])]
-    if not fields:
-        raise RuntimeError('CSV header missing from IEM response.')
+    # IEM may return comma-, tab-, or semicolon-delimited text.
+    # Select the actual delimiter based on recognizable station/temperature columns.
+    body_lines = '\n'.join(lines)
+    reader = None
+    fields = []
+    for delim in (',', '\t', ';', '|'):
+        candidate = csv.DictReader(io.StringIO(body_lines), delimiter=delim, skipinitialspace=True)
+        headers = [(f or '').strip().lower().lstrip('\ufeff') for f in (candidate.fieldnames or [])]
+        if (set(SENSORS + AVERAGE).intersection(headers)
+                and set(LAT).intersection(headers)
+                and set(LON).intersection(headers)):
+            reader, fields = candidate, headers
+            print('IEM delimiter:', repr(delim))
+            break
+    if reader is None:
+        # Helpful failure details if the API format changes later.
+        print('IEM raw header:', repr(lines[0][:500]))
+        raise RuntimeError('Could not parse IEM pavement/coordinate columns.')
     print('IEM fields:', ', '.join(fields))
-    expected = set(SENSORS + AVERAGE)
-    if not expected.intersection(fields):
-        raise RuntimeError('No recognized pavement temperature columns; check IEM field names printed above.')
-    if not set(LAT).intersection(fields) or not set(LON).intersection(fields):
-        raise RuntimeError('Missing latitude/longitude columns; check IEM CSV output.')
-    rows = [{(k or '').strip().lower(): v for k, v in row.items()} for row in reader]
+    rows = [{(k or '').strip().lower().lstrip('\ufeff'): v for k, v in row.items()} for row in reader]
     return rows
 
 
