@@ -43,12 +43,12 @@ def parse_csv(body):
     header_index = None
     for i, line in enumerate(lines):
         cleaned = line.strip().removeprefix('#').strip().strip('"').lower()
-        if cleaned.startswith('station,') and 'latitude' in cleaned and 'longitude' in cleaned and 'tsf0' in cleaned:
+        if cleaned.startswith('station,') and 'latitude' in cleaned and 'longitude' in cleaned and 'tfs0' in cleaned:
             header_index = i
             break
     if header_index is None:
         print('First response lines:', repr(lines[:6]), flush=True)
-        raise RuntimeError('IEM CSV header not found. Expected station,obtime,longitude,latitude,...,tsf0.')
+        raise RuntimeError('IEM CSV header not found. Expected station,obtime,longitude,latitude,...,tfs0.')
     text = '\n'.join([lines[header_index].lstrip().removeprefix('#').strip()] + [
         l for l in lines[header_index+1:] if l.strip() and not l.lstrip().startswith('#')
     ])
