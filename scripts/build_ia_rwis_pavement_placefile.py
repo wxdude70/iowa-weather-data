@@ -79,7 +79,7 @@ def fetch_rows(now):
     params = {
         'network': 'IA_RWIS', 'stations': '_ALL', 'tz': 'UTC',
         'what': 'download', 'src': 'atmos', 'gis': 'true',
-        'sts': (now - timedelta(hours=3)).strftime('%Y-%m-%dT%H:%M:%S'),
+        'sts': (now - timedelta(minutes=30)).strftime('%Y-%m-%dT%H:%M:%S'),
         'ets': now.strftime('%Y-%m-%dT%H:%M:%S'),
     }
     url = 'https://mesonet.agron.iastate.edu/cgi-bin/request/rwis.py?' + urlencode(params)
