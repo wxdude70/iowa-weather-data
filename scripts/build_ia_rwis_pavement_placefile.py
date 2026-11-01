@@ -78,7 +78,7 @@ def pavement_temp(row):
 def fetch_rows(now):
     params = {
         'network': 'IA_RWIS', 'stations': '_ALL', 'tz': 'UTC',
-        'what': 'download', 'src': 'atmos', 'gis': 'true',
+        'what': 'download', 'src': 'atmos', 'gis': 'true', 'delim': ',',
         'sts': (now - timedelta(hours=3)).strftime('%Y-%m-%dT%H:%M:%S'),
         'ets': now.strftime('%Y-%m-%dT%H:%M:%S'),
     }
