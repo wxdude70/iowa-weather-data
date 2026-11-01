@@ -11,7 +11,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 OUTPUT = Path('docs/ia_rwis_pavement_placefile.txt')
-SENSOR_KEYS = ('tsf0', 'tsf1', 'tsf2', 'tsf3')
+SENSOR_KEYS = ('tfs0', 'tfs1', 'tfs2', 'tfs3')
 MAX_AGE = timedelta(minutes=100)
 
 
