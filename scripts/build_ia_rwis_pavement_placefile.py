@@ -95,12 +95,12 @@ def write_placefile(now, rows):
         'Title: Iowa RWIS Pavement Temperatures (F)',
         'RefreshSeconds: 600',
         'Threshold: 999',
-        'Font: 1, 14, 1, "Arial"',
+        'Font: 1, 13, 1, "Arial"',
         'Color: 255 255 255',
         '',
     ]
     for _, lat, lon, temp in sorted(stations.values(), key=lambda x: (x[1], x[2])):
-        out += [f'Object: {lat:.5f}, {lon:.5f}', f'  Text: 4, -4, 1, "{round(temp)}"', 'End:', '']
+        out += [f'Object: {lat:.5f}, {lon:.5f}', f'  Text: 4, -20, 1, "{round(temp)}"', 'End:', '']
     out.append(f'; Stations displayed: {len(stations)}')
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text('\n'.join(out) + '\n', encoding='utf-8')
