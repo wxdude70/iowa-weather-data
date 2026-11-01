@@ -11,12 +11,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "63",
         "station": "ADU",
         "station_name": "ADU",
-        "value": 52,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -29,12 +29,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "61",
         "station": "AIO",
         "station_name": "AIO",
-        "value": 52,
+        "value": 61,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -52,7 +52,7 @@
         "station_name": "ALO",
         "value": 53,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -65,12 +65,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "63",
         "station": "AMW",
         "station_name": "AMW",
-        "value": 54,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -83,12 +83,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "57",
         "station": "AWG",
         "station_name": "AWG",
-        "value": 54,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -101,12 +101,12 @@
         ]
       },
       "properties": {
-        "name": "48",
+        "name": "54",
         "station": "AXA",
         "station_name": "AXA",
-        "value": 48,
+        "value": 54,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -119,12 +119,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "61",
         "station": "BNW",
         "station_name": "BNW",
-        "value": 54,
+        "value": 61,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -137,12 +137,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "60",
         "station": "BRL",
         "station_name": "BRL",
-        "value": 54,
+        "value": 60,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -160,7 +160,7 @@
         "station_name": "CAV",
         "value": 54,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -173,12 +173,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "59",
         "station": "CBF",
         "station_name": "CBF",
-        "value": 54,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -196,7 +196,7 @@
         "station_name": "CCY",
         "value": 52,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -209,12 +209,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "58",
         "station": "CID",
         "station_name": "CID",
-        "value": 52,
+        "value": 58,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -227,12 +227,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "63",
         "station": "CIN",
         "station_name": "CIN",
-        "value": 52,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -245,12 +245,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "57",
         "station": "CKP",
         "station_name": "CKP",
-        "value": 52,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -263,12 +263,12 @@
         ]
       },
       "properties": {
-        "name": "50",
+        "name": "59",
         "station": "CNC",
         "station_name": "CNC",
-        "value": 50,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -281,12 +281,12 @@
         ]
       },
       "properties": {
-        "name": "50",
+        "name": "57",
         "station": "CSQ",
         "station_name": "CSQ",
-        "value": 50,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -299,12 +299,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "57",
         "station": "CWI",
         "station_name": "CWI",
-        "value": 54,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -317,12 +317,12 @@
         ]
       },
       "properties": {
-        "name": "53",
+        "name": "52",
         "station": "DBQ",
         "station_name": "DBQ",
-        "value": 53,
+        "value": 52,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -335,12 +335,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "54",
         "station": "DEH",
         "station_name": "DEH",
-        "value": 52,
+        "value": 54,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -353,12 +353,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "63",
         "station": "DNS",
         "station_name": "DNS",
-        "value": 52,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -371,12 +371,12 @@
         ]
       },
       "properties": {
-        "name": "53",
+        "name": "62",
         "station": "DSM",
         "station_name": "DSM",
-        "value": 53,
+        "value": 62,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -394,7 +394,7 @@
         "station_name": "DVN",
         "value": 56,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -407,12 +407,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "57",
         "station": "EBS",
         "station_name": "EBS",
-        "value": 54,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -425,12 +425,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "64",
         "station": "EOK",
         "station_name": "EOK",
-        "value": 54,
+        "value": 64,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -443,12 +443,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "51",
         "station": "EST",
         "station_name": "EST",
-        "value": 52,
+        "value": 51,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -461,12 +461,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "59",
         "station": "FFL",
         "station_name": "FFL",
-        "value": 52,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -479,12 +479,12 @@
         ]
       },
       "properties": {
-        "name": "53",
+        "name": "58",
         "station": "FOD",
         "station_name": "FOD",
-        "value": 53,
+        "value": 58,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -497,12 +497,12 @@
         ]
       },
       "properties": {
-        "name": "55",
+        "name": "63",
         "station": "FSW",
         "station_name": "FSW",
-        "value": 55,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -520,7 +520,7 @@
         "station_name": "FXY",
         "value": 52,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -533,12 +533,12 @@
         ]
       },
       "properties": {
-        "name": "53",
+        "name": "60",
         "station": "GGI",
         "station_name": "GGI",
-        "value": 53,
+        "value": 60,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -551,12 +551,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "63",
         "station": "HNR",
         "station_name": "HNR",
-        "value": 52,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -569,12 +569,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "50",
         "station": "HPT",
         "station_name": "HPT",
-        "value": 52,
+        "value": 50,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -587,12 +587,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "66",
         "station": "ICL",
         "station_name": "ICL",
-        "value": 54,
+        "value": 66,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -605,12 +605,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "57",
         "station": "IFA",
         "station_name": "IFA",
-        "value": 54,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -623,12 +623,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "54",
         "station": "IIB",
         "station_name": "IIB",
-        "value": 52,
+        "value": 54,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -641,12 +641,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "63",
         "station": "IKV",
         "station_name": "IKV",
-        "value": 54,
+        "value": 63,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -659,12 +659,30 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "58",
         "station": "IOW",
         "station_name": "IOW",
-        "value": 54,
+        "value": 58,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.195,
+          42.7771
+        ]
+      },
+      "properties": {
+        "name": "59",
+        "station": "LRJ",
+        "station_name": "LRJ",
+        "value": 59,
+        "units": "F",
+        "date": "2026-10-30"
       }
     },
     {
@@ -677,12 +695,12 @@
         ]
       },
       "properties": {
-        "name": "50",
+        "name": "61",
         "station": "LWD",
         "station_name": "LWD",
-        "value": 50,
+        "value": 61,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -695,12 +713,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "51",
         "station": "MCW",
         "station_name": "MCW",
-        "value": 54,
+        "value": 51,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -713,12 +731,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "58",
         "station": "MIW",
         "station_name": "MIW",
-        "value": 54,
+        "value": 58,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -731,12 +749,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "59",
         "station": "MPZ",
         "station_name": "MPZ",
-        "value": 52,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -749,12 +767,12 @@
         ]
       },
       "properties": {
-        "name": "55",
+        "name": "59",
         "station": "MUT",
         "station_name": "MUT",
-        "value": 55,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -767,12 +785,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "55",
         "station": "MXO",
         "station_name": "MXO",
-        "value": 54,
+        "value": 55,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -790,7 +808,7 @@
         "station_name": "OLZ",
         "value": 52,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -803,30 +821,12 @@
         ]
       },
       "properties": {
-        "name": "55",
+        "name": "59",
         "station": "OOA",
         "station_name": "OOA",
-        "value": 55,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.4446,
-          41.1008
-        ]
-      },
-      "properties": {
-        "name": "53",
-        "station": "OTM",
-        "station_name": "OTM",
-        "value": 53,
-        "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -839,12 +839,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "59",
         "station": "OXV",
         "station_name": "OXV",
-        "value": 54,
+        "value": 59,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -857,12 +857,12 @@
         ]
       },
       "properties": {
-        "name": "53",
+        "name": "60",
         "station": "PEA",
         "station_name": "PEA",
-        "value": 53,
+        "value": 60,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -875,12 +875,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "62",
         "station": "PRO",
         "station_name": "PRO",
-        "value": 52,
+        "value": 62,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -893,12 +893,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "64",
         "station": "RDK",
         "station_name": "RDK",
-        "value": 54,
+        "value": 64,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -911,12 +911,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "66",
         "station": "SDA",
         "station_name": "SDA",
-        "value": 54,
+        "value": 66,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -929,12 +929,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "55",
         "station": "SHL",
         "station_name": "SHL",
-        "value": 52,
+        "value": 55,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -947,12 +947,12 @@
         ]
       },
       "properties": {
-        "name": "50",
+        "name": "57",
         "station": "SLB",
         "station_name": "SLB",
-        "value": 50,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -965,12 +965,12 @@
         ]
       },
       "properties": {
-        "name": "51",
+        "name": "54",
         "station": "SPW",
         "station_name": "SPW",
-        "value": 51,
+        "value": 54,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -983,12 +983,12 @@
         ]
       },
       "properties": {
-        "name": "55",
+        "name": "62",
         "station": "SUX",
         "station_name": "SUX",
-        "value": 55,
+        "value": 62,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -1001,12 +1001,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "57",
         "station": "SXK",
         "station_name": "SXK",
-        "value": 54,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -1019,12 +1019,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "61",
         "station": "TNU",
         "station_name": "TNU",
-        "value": 54,
+        "value": 61,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -1037,12 +1037,12 @@
         ]
       },
       "properties": {
-        "name": "54",
+        "name": "64",
         "station": "TVK",
         "station_name": "TVK",
-        "value": 54,
+        "value": 64,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     },
     {
@@ -1055,12 +1055,12 @@
         ]
       },
       "properties": {
-        "name": "52",
+        "name": "57",
         "station": "VTI",
         "station_name": "VTI",
-        "value": 52,
+        "value": 57,
         "units": "F",
-        "date": "2026-10-16"
+        "date": "2026-10-30"
       }
     }
   ]
